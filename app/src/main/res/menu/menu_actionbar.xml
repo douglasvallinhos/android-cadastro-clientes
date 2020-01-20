@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:id="@+id/menu_actionbar">
+        <item
+			android:id="@+id/menuitem_search"
+			android:title="Pesquisar"
+			android:icon="@drawable/ic_search_white_36dp"
+			app:showAsAction="always"
+			app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+
+        <item 
+			android:id="@+id/menuitem_salvar" 
+			android:icon="@drawable/save"
+			app:showAsAction="ifRoom"
+			android:title="@string/menu_item_salvar" />
+        <item 
+			android:id="@+id/menuitem_excluir"
+			android:icon="@drawable/ic_action_discard"
+			app:showAsAction="never"
+			android:title="@string/menu_item_excluir"  />
+        <item 
+			android:id="@+id/menuitem_cancelar" 
+			android:icon="@drawable/ic_action_cancel"
+			app:showAsAction="never"
+			android:title="@string/menu_item_cancelar"  />
+    </group>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "601131621576",
+    "firebase_url": "https://carolinevallinhosauth.firebaseio.com",
+    "project_id": "carolinevallinhosauth",
+    "storage_bucket": "carolinevallinhosauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601131621576:android:f246c4d74d0a3e752e59fd",
+        "android_client_info": {
+          "package_name": "com.example.carolinevallinhos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601131621576-u1l3k5q7rjm9h89disks0ak69etc7gb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carolinevallinhos",
+            "certificate_hash": "a3b81de6f8454a1124a1b55caa5e34d4e6a79120"
+          }
+        },
+        {
+          "client_id": "601131621576-gepgbip300170ajfhal1j1j667durk7h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8oVSa8XMJStIqhzCKVOuNk3RiFsjB0A4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601131621576-gepgbip300170ajfhal1j1j667durk7h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

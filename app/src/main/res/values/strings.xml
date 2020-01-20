@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Caroline Vallinhos</string>
+    <string name="account_name">CONTA E-MAIL</string>
+    <string name="password">SENHA</string>
+    <string name="password_hint">Digite a sua Senha</string>
+    <string name="password_hint2">Digite uma Senha(Mín 6 caracteres)</string>
+    <string name="forgot_your_login_info">ESQUECEU SUA SENHA?</string>
+    <string name="sign_in">ENTRAR</string>
+    <string name="remember_my_password">LEMBRAR MEUS DADOS</string>
+    <string name="username">Digite o seu E-mail</string>
+    <string name="create_account">CRIAR NOVA CONTA</string>
+    <string name="first_name">NOME</string>
+    <string name="last_name">SOBRENOME</string>
+    <string name="email">E-MAIL</string>
+    <string name="email_hint">test@example.com</string>
+    <string name="reset_senha">ENVIAR E-MAIL DE RECUPERAÇÃO</string>
+
+
+    <!-- ActionBar -->
+
+    <string name="menu_item_salvar">Salvar</string>
+
+    <string name="menu_item_excluir">Excluir</string>
+
+    <string name="menu_item_cancelar">Cancelar</string>
+
+    <string name="titulo_actionbar_list">Contatos</string>
+
+
+    <!-- List e Inputs xml-->
+
+    <string name="tela1_meuscontatos">Meus Pacientes</string>
+
+    <string name="tela1_foto">Foto do contato</string>
+
+    <string name="tela1_nome">Nome: </string>
+
+    <string name="tela1_hint_nome">  Insira aqui o nome</string>
+
+    <string name="tela1_sobrenome">Sobrenome: </string>
+    <string name="tela1_email">Email: </string>
+    <string name="tela1_nascimento">Nascimento: </string>
+    <string name="tela1_detalhe">Detalhe: </string>
+    <string name="tela1_objetivo">Objetivo: </string>
+
+    <string name="tela1_hint_sobrenome">  Insira aqui o sobrenome</string>
+    <string name="tela1_hint_email">  Insira aqui o email</string>
+    <string name="tela1_hint_nascimento">  Insira a data de nascimento</string>
+    <string name="tela1_hint_detalhe">  Insira aqui os detalhes da consulta</string>
+    <string name="tela1_hint_objetivo">  Insira aqui o objetivo da consulta</string>
+
+    <string name="tela1_telefone">Telefone: </string>
+
+    <string name="tela1_hint_telefone">  Insira aqui o telefone</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+
+
+</resources>

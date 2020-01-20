@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_nome"
+            android:id="@+id/textView_nome"
+            android:textColor="@color/colorAccent"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_nome"
+            android:hint="@string/tela1_hint_nome"
+            android:background="@drawable/home_contacts"
+            android:drawableLeft="@drawable/name"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:textCursorDrawable="@drawable/cursor_contacts" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_email"
+            android:id="@+id/textView_email"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editText_email"
+            android:hint="@string/tela1_hint_email"
+            android:background="@drawable/home_contacts"
+            android:drawableLeft="@drawable/mail"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:textCursorDrawable="@drawable/cursor_contacts"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_telefone"
+            android:id="@+id/textView_telefone"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/editText_telefone"
+            android:hint="@string/tela1_hint_telefone"
+            android:background="@drawable/home_contacts"
+            android:drawableLeft="@drawable/phone"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:textCursorDrawable="@drawable/cursor_contacts"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_nascimento"
+            android:id="@+id/textView_nascimento"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/editText_nascimento"
+            android:hint="@string/tela1_hint_nascimento"
+            android:background="@drawable/home_contacts"
+            android:drawableLeft="@drawable/calendar"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:textCursorDrawable="@drawable/cursor_contacts"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_detalhe"
+            android:id="@+id/textView_detalhe"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:id="@+id/editText_detalhe"
+            android:hint="@string/tela1_hint_detalhe"
+            android:background="@drawable/home_contacts"
+            android:drawableLeft="@drawable/detalhe"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:textCursorDrawable="@drawable/cursor_contacts"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tela1_objetivo"
+            android:id="@+id/textView_objetivo"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:id="@+id/editText_objetivo"
+            android:hint="@string/tela1_hint_objetivo"
+            android:background="@drawable/home_contacts"
+            android:drawableLeft="@drawable/objetivo"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:textCursorDrawable="@drawable/cursor_contacts"/>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/foto_sombra"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:onClick="carregarImagem"
+            />
+    </LinearLayout>
+
+</ScrollView>

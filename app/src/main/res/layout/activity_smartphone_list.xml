@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/listview"
+    android:background="@drawable/home_bg"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tela1_meuscontatos"
+        android:id="@+id/textView"
+        android:textColor="@color/colorAccent"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal"
+        android:cacheColorHint="@color/colorAccent"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1dp"/>
+</LinearLayout>
